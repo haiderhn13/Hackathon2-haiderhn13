@@ -1,6 +1,6 @@
 'use client';
 
-import Footer from "@/components/Footer";
+
 import Image from "next/image";
 
 

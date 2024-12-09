@@ -1,10 +1,10 @@
 'use client';
-import React, { useState, createRef } from 'react';
+import React, { useState } from 'react';
 import { Form, Input, Button, Divider } from 'antd';
 
 const AuthSection = () => {
   const [isLogin, setIsLogin] = useState(true);
-  const inputRef = createRef();
+  
 
   return (
     <section className="py-10 h-full bg-[#F6F5FF]">
